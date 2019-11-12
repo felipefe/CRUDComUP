@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.PesquisaBordaActivity"></activity>
+        <activity android:name=".view.PesquisaSaboresActivity"></activity>
+        <activity android:name=".view.CadastroSaboresActivity" />
+        <activity android:name=".view.PesquisaCategoriaActivity" />
+        <activity android:name=".view.CadastroCategoriaActivity" />
+        <activity android:name=".view.PesquisaBordaActivity" />
         <activity android:name=".view.CadastroBordaActivity" />
         <activity android:name=".view.PesquisaProdutoActivity" />
         <activity android:name=".view.PesquisaUsuarioActivity" />
