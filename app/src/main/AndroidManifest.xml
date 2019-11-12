@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".view.PesquisaBordaActivity"></activity>
+        <activity android:name=".view.CadastroBordaActivity" />
+        <activity android:name=".view.PesquisaProdutoActivity" />
+        <activity android:name=".view.PesquisaUsuarioActivity" />
+        <activity android:name=".view.CadastroUsuarioActivity" />
+        <activity android:name=".view.CadastroProdutoActivity" />
         <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
