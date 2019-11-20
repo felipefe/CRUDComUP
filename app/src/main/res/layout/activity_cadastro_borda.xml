@@ -1,9 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    style="@style/container"
     tools:context=".view.CadastroBordaActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastroborda"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        style="@style/input"
+        android:text="@string/nome"
+    />
+    <EditText
+        style="@style/input"
+        android:hint="@string/nome_borda_hint"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/editNome"
+        />
+
+
+    <TextView
+        style="@style/input"
+        android:text="@string/valor"
+        />
+    <EditText
+        style="@style/input"
+        android:hint="@string/valor_hint"
+        android:id="@+id/editValor"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/salvar"
+            />
+
+        <Button
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/cancelar"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

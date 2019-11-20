@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CRUDComUP</string>
+    <string name="produtos">Products</string>
+    <string name="bordas">Edge</string>
+    <string name="categorias">Categories</string>
+    <string name="nome">Name</string>
+    <string name="valor">Value</string>
+    <string name="cancelar">Cancel</string>
+    <string name="salvar">Save</string>
+    <string name="cadastroborda">"Edge Registration "</string>
+    <string name="nome_borda_hint">"Enter a border "</string>
+    <string name="valor_hint">"Enter a value "</string>
+    <string name="pesquisar">Search</string>
+    <string name="novo">New</string>
+    <string name="descricao">Description</string>
+    <string name="divisivel">Divisible</string>
+    <string name="nome_categoria_hint">"Enter a category "</string>
+    <string name="cadastrocategoria">"Category Registration "</string>
+</resources>
