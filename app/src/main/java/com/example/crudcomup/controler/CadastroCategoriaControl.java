@@ -1,6 +1,6 @@
 package com.example.crudcomup.controler;
 
-public class CategoriaControl implements InterfaceListView, InterfaceControleDados{
+public class CadastroCategoriaControl implements InterfaceListView, InterfaceControleDados{
     @Override
     public void initComponents() {
 

@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:text="@string/bordas"
         android:textAlignment="center"
+        android:textSize="30sp"
         />
 
     <EditText
